@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import About from './components/About';
+// import About from './components/About';
 import TextForm from './components/TextForm';
 import Alert from './components/Alert';
-import {
-  Routes,
-  Route,
-} from "react-router-dom";
+// import {
+//   Routes,
+//   Route,
+// } from "react-router-dom";
 //this is rect domm
 import { useState } from 'react';
 function App() {
@@ -47,10 +47,11 @@ function App() {
           </Routes> */}
         {/* </div> */}
         <div className="container">
-        <Routes>
+        {/* <Routes>
           <Route exact path="/" element={<TextForm heading="Enter text to analyze" mode={mode} showAlert={showAlert} />}/>
           <Route exact path="/about" element={<About />}/>
-        </Routes>
+        </Routes> */}
+        <TextForm heading="Enter text to analyze" mode={mode} showAlert={showAlert} />
         </div>
     
   </>
