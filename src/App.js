@@ -8,6 +8,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+//this is rect domm
 import { useState } from 'react';
 function App() {
   const [mode, setmode] = useState("light");
